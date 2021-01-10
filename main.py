@@ -7,7 +7,7 @@ from datetime import datetime
 
 client = commands.Bot(command_prefix = '#')
 
-token = "Nzk3NTQzMzE3NzYzMjYwNDE4.X_oAGA.ErsNnaZ4N9FI8BSjlvwCB-97qBA"
+token = "token"
 
 @client.event
 async def on_ready():
