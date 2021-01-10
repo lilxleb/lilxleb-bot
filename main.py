@@ -15,7 +15,7 @@ async def on_ready():
 
 for filename in os.listdir("./extensions"):
 	if filename.endswith(".py"):
-		client.load_extension(f'cogs.{filename[:-3]}')
+		client.load_extension(f'extensions.{filename[:-3]}')
 		print(f"ALERT: {filename[:-3]} has been loaded as a startup procedure at {datetime.now()}")
 print(f"ALERT: Bot has been loaded at {datetime.now()}")
 
